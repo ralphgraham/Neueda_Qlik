@@ -7,7 +7,7 @@
             },
             "qMeasure": {
                 "qLabel": "Awarded value (Known)",
-                "qDef": "Sum({<[Company name]-={'Withheld'}>}[Awarded value])",
+                "qDef": "Sum({<[Company name]={'Withheld'}>}[Awarded value])",
                 "qGrouping": "N",
                 "qExpressions": [],
                 "qActiveExpression": 0,
