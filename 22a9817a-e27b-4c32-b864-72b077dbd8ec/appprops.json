@@ -1,0 +1,42 @@
+{
+    "appprops": [
+        {
+            "qProperty": {
+                "qInfo": {
+                    "qId": "c8e604f2-aa74-4113-9d42-cec9ec40064d",
+                    "qType": "appprops"
+                },
+                "qMetaDef": {},
+                "sheetTitleBgColor": "",
+                "sheetTitleGradientColor": "",
+                "sheetTitleColor": "",
+                "sheetLogoThumbnail": {
+                    "qStaticContentUrlDef": {}
+                },
+                "sheetLogoPosition": "",
+                "rtl": false,
+                "theme": "card"
+            },
+            "qChildren": []
+        },
+        {
+            "qProperty": {
+                "qInfo": {
+                    "qId": "dbfe83a3-b47d-4a9f-b1fc-9b83aac7ab9b",
+                    "qType": "appprops"
+                },
+                "qMetaDef": {},
+                "sheetTitleBgColor": "",
+                "sheetTitleGradientColor": "",
+                "sheetTitleColor": "",
+                "sheetLogoThumbnail": {
+                    "qStaticContentUrlDef": {}
+                },
+                "sheetLogoPosition": "",
+                "rtl": false,
+                "theme": "card"
+            },
+            "qChildren": []
+        }
+    ]
+}

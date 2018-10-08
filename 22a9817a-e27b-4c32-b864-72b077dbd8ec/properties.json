@@ -1,0 +1,77 @@
+{
+    "properties": {
+        "qTitle": "CPD Spend",
+        "qLastReloadTime": "2018-07-20T15:39:04.120Z",
+        "qMigrationHash": "98d482c3f964dccf69cbfb9a00e0c048ea6eb221",
+        "qSavedInProductVersion": "12.170.2",
+        "qThumbnail": {
+            "qUrl": "/content/Default/DoF.PNG"
+        },
+        "createdDate": "2018-07-20T13:44:03.380Z",
+        "modifiedDate": "2018-07-25T06:39:19.197Z",
+        "published": true,
+        "publishTime": "2018-07-25T06:39:19.155Z",
+        "privileges": [
+            "read",
+            "update",
+            "delete",
+            "publish",
+            "exportdata",
+            "offlineaccess",
+            "duplicate"
+        ],
+        "description": "",
+        "dynamicColor": "",
+        "create": [
+            {
+                "resource": "sheet",
+                "canCreate": true
+            },
+            {
+                "resource": "bookmark",
+                "canCreate": true
+            },
+            {
+                "resource": "story",
+                "canCreate": true
+            },
+            {
+                "resource": "dimension",
+                "canCreate": true
+            },
+            {
+                "resource": "measure",
+                "canCreate": true
+            },
+            {
+                "resource": "masterobject",
+                "canCreate": true
+            },
+            {
+                "resource": "folderconnection",
+                "canCreate": true
+            },
+            {
+                "resource": "oledbconnection",
+                "canCreate": true
+            },
+            {
+                "resource": "odbcconnection",
+                "canCreate": true
+            },
+            {
+                "resource": "internetconnection",
+                "canCreate": true
+            },
+            {
+                "resource": "customconnection",
+                "canCreate": true
+            }
+        ],
+        "stream": {
+            "id": "70299aa9-4faf-4a68-8504-b92e9498654b",
+            "name": "Open Data"
+        },
+        "canCreateDataConnections": true
+    }
+}

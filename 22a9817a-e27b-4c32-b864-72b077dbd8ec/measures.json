@@ -1,0 +1,61 @@
+{
+    "measures": [
+        {
+            "qInfo": {
+                "qId": "67e7d8c0-3943-43b8-8e70-4aa3fdd21cc2",
+                "qType": "measure"
+            },
+            "qMeasure": {
+                "qLabel": "Awarded value (Known)",
+                "qDef": "Sum({<[Company name]-={'Withheld'}>}[Awarded value])",
+                "qGrouping": "N",
+                "qExpressions": [],
+                "qActiveExpression": 0,
+                "coloring": {}
+            },
+            "qMetaDef": {
+                "title": "Awarded value (Known)",
+                "description": "",
+                "tags": []
+            }
+        },
+        {
+            "qInfo": {
+                "qId": "gdQvT",
+                "qType": "measure"
+            },
+            "qMeasure": {
+                "qLabel": "Number of Awards",
+                "qDef": "Sum(Counter)",
+                "qGrouping": "N",
+                "qExpressions": [],
+                "qActiveExpression": 0,
+                "coloring": {}
+            },
+            "qMetaDef": {
+                "title": "Number of Awards",
+                "description": "",
+                "tags": []
+            }
+        },
+        {
+            "qInfo": {
+                "qId": "sEzGau",
+                "qType": "measure"
+            },
+            "qMeasure": {
+                "qLabel": "Awarded value",
+                "qDef": "Sum([Awarded value])",
+                "qGrouping": "N",
+                "qExpressions": [],
+                "qActiveExpression": 0,
+                "coloring": {}
+            },
+            "qMetaDef": {
+                "title": "Awarded value",
+                "description": "",
+                "tags": []
+            }
+        }
+    ]
+}

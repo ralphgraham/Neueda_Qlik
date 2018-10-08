@@ -1,0 +1,126 @@
+{
+    "dimensions": [
+        {
+            "qInfo": {
+                "qId": "pjkxP",
+                "qType": "dimension"
+            },
+            "qDim": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                    "Award event date"
+                ],
+                "qFieldLabels": [
+                    "Award event date"
+                ],
+                "title": "Award event date",
+                "coloring": {
+                    "changeHash": "0.33796405258392426"
+                }
+            },
+            "qMetaDef": {
+                "title": "Award event date",
+                "description": "",
+                "tags": []
+            }
+        },
+        {
+            "qInfo": {
+                "qId": "RnPTNFy",
+                "qType": "dimension"
+            },
+            "qDim": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                    "Contract awarded by"
+                ],
+                "qFieldLabels": [
+                    "Contract awarded by"
+                ],
+                "title": "Contract awarded by",
+                "coloring": {
+                    "changeHash": "0.4622085972239307"
+                }
+            },
+            "qMetaDef": {
+                "title": "Contract awarded by",
+                "description": "",
+                "tags": []
+            }
+        },
+        {
+            "qInfo": {
+                "qId": "UZbKjbg",
+                "qType": "dimension"
+            },
+            "qDim": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                    "=date(monthstart([Award event date]),'MMM/YYYY')"
+                ],
+                "qFieldLabels": [
+                    "Award Month Year"
+                ],
+                "title": "Award Month Year",
+                "coloring": {
+                    "changeHash": "0.37808367400087284",
+                    "colorMapRef": "UZbKjbg"
+                }
+            },
+            "qMetaDef": {
+                "title": "Award Month Year",
+                "description": "",
+                "tags": []
+            }
+        },
+        {
+            "qInfo": {
+                "qId": "202c2dce-7d77-4746-9999-c2f43d710c68",
+                "qType": "dimension"
+            },
+            "qDim": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                    "Title"
+                ],
+                "qFieldLabels": [
+                    "Title"
+                ],
+                "title": "Title",
+                "coloring": {
+                    "colorMapRef": "ksJdLp",
+                    "changeHash": "0.32428798274826476"
+                }
+            },
+            "qMetaDef": {
+                "title": "Title",
+                "description": "",
+                "tags": []
+            }
+        },
+        {
+            "qInfo": {
+                "qId": "ksJdLp",
+                "qType": "dimension"
+            },
+            "qDim": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                    "Company name"
+                ],
+                "qFieldLabels": [
+                    "Company name"
+                ],
+                "title": "Company name",
+                "coloring": {
+                    "changeHash": "0.45625234313288976"
+                }
+            },
+            "qMetaDef": {
+                "title": "Company name",
+                "description": "",
+                "tags": []
+            }
+        }
+    ]
+}

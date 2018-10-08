@@ -1,0 +1,2360 @@
+{
+    "dataconnections": [
+        {
+            "qConnection": {
+                "qId": "a6261e01-302f-4e3f-8fb9-cb6a447c591a",
+                "qName": "QLogs",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvOdbcConnectorPackage.exe;driver=postgres;host=localhost;port=4432;db=QLogs;FetchTSWTZasTimestamp=1;MaxVarcharSize=262144;\"",
+                "qType": "QvOdbcConnectorPackage.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2017-11-01T14:03:14.239Z",
+                    "modifiedDate": "2017-11-01T14:03:14.239Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "47a1cfd8-f70e-4a98-a00d-00fca6c8e253",
+                "qName": "AttachedFiles",
+                "qConnectionString": "\\\\WIN-MTMQOGH9PMT\\QlikShare\\StaticContent\\AppContent\\<APP_ID>",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2017-11-01T14:03:14.305Z",
+                    "modifiedDate": "2017-11-01T14:03:14.305Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "82789c18-b81e-485d-899d-6ac314253059",
+                "qName": "monitor_apps_REST_app",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://localhost/qrs/app/full;timeout=900;method=GET;autoDetectResponseType=true;keyGenerationStrategy=0;authSchema=ntlm;skipServerCertificateValidation=true;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;trustedLocations=qrs-proxy%2https://localhost:4244;queryParameters=xrfkey%20000000000000000;addMissingQueryParametersToFinalRequest=false;queryHeaders=X-Qlik-XrfKey%20000000000000000%1User-Agent%2Windows;PaginationType=None;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2017-11-01T14:03:15.488Z",
+                    "modifiedDate": "2017-11-01T14:03:15.488Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "3201a27b-802a-4a5e-ade5-bf36e07fcb3a",
+                "qName": "monitor_apps_REST_appobject",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://localhost/qrs/app/object/full;timeout=900;method=GET;autoDetectResponseType=true;keyGenerationStrategy=0;authSchema=ntlm;skipServerCertificateValidation=true;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;trustedLocations=qrs-proxy%2https://localhost:4244;queryParameters=xrfkey%20000000000000000;addMissingQueryParametersToFinalRequest=false;queryHeaders=X-Qlik-XrfKey%20000000000000000%1User-Agent%2Windows;PaginationType=None;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2017-11-01T14:03:15.488Z",
+                    "modifiedDate": "2017-11-01T14:03:15.488Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "06c3c2f6-7dc1-4e84-9ea6-0f15a67266de",
+                "qName": "monitor_apps_REST_event",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://localhost/qrs/event/full;timeout=900;method=GET;autoDetectResponseType=true;keyGenerationStrategy=0;authSchema=ntlm;skipServerCertificateValidation=true;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;trustedLocations=qrs-proxy%2https://localhost:4244;queryParameters=xrfkey%20000000000000000;addMissingQueryParametersToFinalRequest=false;queryHeaders=X-Qlik-XrfKey%20000000000000000%1User-Agent%2Windows;PaginationType=None;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2017-11-01T14:03:15.488Z",
+                    "modifiedDate": "2017-11-01T14:03:15.488Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "d48ee370-a204-44ad-bd2e-53499155bd16",
+                "qName": "Fantasy (win-mtmqogh9pmt_ralph.graham)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://fantasy.premierleague.com/drf/bootstrap-static;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=0;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-08-08T12:44:24.765Z",
+                    "modifiedDate": "2018-08-08T12:44:24.765Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "c9c9659f-5f63-478c-b101-3f32c68ed35a",
+                "qName": "monitor_apps_REST_license_login",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://localhost/qrs/license/loginaccesstype/full;timeout=900;method=GET;autoDetectResponseType=true;keyGenerationStrategy=0;authSchema=ntlm;skipServerCertificateValidation=true;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;trustedLocations=qrs-proxy%2https://localhost:4244;queryParameters=xrfkey%20000000000000000;addMissingQueryParametersToFinalRequest=false;queryHeaders=X-Qlik-XrfKey%20000000000000000%1User-Agent%2Windows;PaginationType=None;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2017-11-01T14:03:15.488Z",
+                    "modifiedDate": "2017-11-01T14:03:15.488Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "089f7da4-4f46-4c1a-bbd1-ec61cf7bf07f",
+                "qName": "monitor_apps_REST_license_user",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://localhost/qrs/license/useraccesstype/full;timeout=900;method=GET;autoDetectResponseType=true;keyGenerationStrategy=0;authSchema=ntlm;skipServerCertificateValidation=true;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;trustedLocations=qrs-proxy%2https://localhost:4244;queryParameters=xrfkey%20000000000000000;addMissingQueryParametersToFinalRequest=false;queryHeaders=X-Qlik-XrfKey%20000000000000000%1User-Agent%2Windows;PaginationType=None;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2017-11-01T14:03:15.488Z",
+                    "modifiedDate": "2017-11-01T14:03:15.488Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "0cf9de8e-c340-491c-8a35-ec82683fad69",
+                "qName": "monitor_apps_REST_task",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://localhost/qrs/task/full;timeout=900;method=GET;autoDetectResponseType=true;keyGenerationStrategy=0;authSchema=ntlm;skipServerCertificateValidation=true;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;trustedLocations=qrs-proxy%2https://localhost:4244;queryParameters=xrfkey%20000000000000000;addMissingQueryParametersToFinalRequest=false;queryHeaders=X-Qlik-XrfKey%20000000000000000%1User-Agent%2Windows;PaginationType=None;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2017-11-01T14:03:15.488Z",
+                    "modifiedDate": "2017-11-01T14:03:15.488Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "1d35a28f-3990-4753-a865-8329da82c228",
+                "qName": "monitor_apps_REST_user",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://localhost/qrs/user/full;timeout=900;method=GET;autoDetectResponseType=true;keyGenerationStrategy=0;authSchema=ntlm;skipServerCertificateValidation=true;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;trustedLocations=qrs-proxy%2https://localhost:4244;queryParameters=xrfkey%20000000000000000;addMissingQueryParametersToFinalRequest=false;queryHeaders=X-Qlik-XrfKey%20000000000000000%1User-Agent%2Windows;PaginationType=None;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2017-11-01T14:03:15.488Z",
+                    "modifiedDate": "2017-11-01T14:03:15.488Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "e331a898-9655-4303-a022-cb3fb387761c",
+                "qName": "ServerLogFolder",
+                "qConnectionString": "C:\\ProgramData\\Qlik\\Sense\\Log\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2017-11-01T14:03:45.720Z",
+                    "modifiedDate": "2017-11-01T14:03:45.720Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "8b8fbab7-3740-4d14-9e45-4b9356c4f767",
+                "qName": "DM",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvDataMarketConnector.exe;\"",
+                "qType": "QvDataMarketConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2017-12-04T15:58:42.082Z",
+                    "modifiedDate": "2017-12-04T15:58:42.082Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "d7d3927c-04d0-4858-b0c0-e99e37cfaf3a",
+                "qName": "IRRData",
+                "qConnectionString": "C:\\Users\\pvn\\Documents\\data\\IRR\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2017-12-04T15:58:42.082Z",
+                    "modifiedDate": "2017-12-04T15:58:42.082Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "dccde16e-de0f-47bc-955d-e7340d77f18d",
+                "qName": "FantasyPlayers (win-mtmqogh9pmt_ralph.graham)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://fantasy.premierleague.com/drf/element-summary/176;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=1;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-08-08T20:36:30.198Z",
+                    "modifiedDate": "2018-08-09T16:32:05.222Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "6105dfaa-5424-431f-8a8c-4d263d7d5914",
+                "qName": "DataPrepAppCache",
+                "qConnectionString": "\\\\WIN-MTMQOGH9PMT\\QlikShare\\Apps\\DataPrepAppCache\\<APP_ID>",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-04T17:16:56.652Z",
+                    "modifiedDate": "2018-05-04T17:16:56.811Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "50bacbbf-ea34-4e91-8c9a-edcde7097f4e",
+                "qName": "Food Standards (win-mtmqogh9pmt_kim.johnston)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=http://ratings.food.gov.uk/OpenDataFiles/FHRS807en-GB.xml;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=0;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-08-13T08:19:47.183Z",
+                    "modifiedDate": "2018-08-13T08:19:47.183Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "8af16d89-647d-45d0-b124-86ee9ca2cd2a",
+                "qName": "Neueda_GA (win-mtmqogh9pmt_qlikservice)",
+                "qConnectionString": "http://localhost:5555/data?connectorID=GoogleAnalyticsConnector&table=CreateReport&ViewId=132031536&TimePeriod=07052017-07052018&Dimensions=ga%3amedium%2cga%3asource%2cga%3adate%2cga%3adateHour%2cga%3acity&Metrics=ga%3ausers%2cga%3anewUsers%2cga%3asessions%2cga%3abounces%2cga%3asessionDuration&Sampling=DEFAULT&appID=",
+                "qType": "internet",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-08T13:37:52.671Z",
+                    "modifiedDate": "2018-05-08T13:37:52.671Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "acde62a3-ed43-49fc-8ab5-a5ae339ca936",
+                "qName": "Klout_Folder",
+                "qConnectionString": "C:\\QlikShare\\Data\\Social Media\\Klout\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-05T11:38:30.388Z",
+                    "modifiedDate": "2018-05-05T11:42:50.611Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "52d1f8ae-70aa-4b3a-81d4-c3d644c1ff7a",
+                "qName": "Klout_Neueda",
+                "qConnectionString": "http://localhost:5555/data?connectorID=KloutConnector&table=UserScoreFromTwitterScreenName&TwitterId=%40neuedaltd&appID=",
+                "qType": "internet",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-05T11:35:53.079Z",
+                    "modifiedDate": "2018-05-05T11:42:57.646Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "11d4f8ce-5dc8-4ac0-9348-1b180cfebd7e",
+                "qName": "Klout_Kainos",
+                "qConnectionString": "http://localhost:5555/data?connectorID=KloutConnector&table=UserScoreFromTwitterScreenName&TwitterId=KainosSoftware&appID=",
+                "qType": "internet",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-05T11:46:41.728Z",
+                    "modifiedDate": "2018-05-05T11:55:22.599Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "6c08b688-86f0-45af-a78c-bffd3849d857",
+                "qName": "Klout_FD",
+                "qConnectionString": "http://localhost:5555/data?connectorID=KloutConnector&table=UserScoreFromTwitterScreenName&TwitterId=FDplc&appID=",
+                "qType": "internet",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-05T11:53:27.885Z",
+                    "modifiedDate": "2018-05-05T11:55:29.720Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "78032bc0-93c2-4447-a864-f3fe1d8cdde1",
+                "qName": "TwittertestSearch (win-mtmqogh9pmt_qlikservice)",
+                "qConnectionString": "http://localhost:5555/data?connectorID=TwitterConnector&table=Search&searchTerm=Neueda+OR+%23neuedalife+OR+%40neuedaltd&maxNoPages=100&ignoreRateLimitErrors=True&appID=",
+                "qType": "internet",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-08T12:09:48.629Z",
+                    "modifiedDate": "2018-05-08T12:09:48.629Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "6c39820f-6eb1-4fed-8c92-9cdc46869c9a",
+                "qName": "Neueda_DW_Social_Media",
+                "qConnectionString": "C:\\QlikShare\\Data\\Social Media\\Transformed Social Media QVD\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-08T17:36:10.438Z",
+                    "modifiedDate": "2018-05-08T17:37:21.405Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "b330c60a-6da0-4b1a-b4d7-1fe1b3042313",
+                "qName": "Twitter",
+                "qConnectionString": "http://localhost:5555/data?connectorID=TwitterConnector&table=Search&searchTerm=Neueda+OR+%23neuedalife+OR+%40neuedaltd&maxNoPages=60&ignoreRateLimitErrors=True&appID=",
+                "qType": "internet",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-04T17:20:16.429Z",
+                    "modifiedDate": "2018-08-07T10:54:44.514Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "a36b6151-a80a-49ca-ad25-49a5c58adbf6",
+                "qName": "TwitterFollowers (win-mtmqogh9pmt_qlikservice)",
+                "qConnectionString": "http://localhost:5555/data?connectorID=TwitterConnector&table=Followers&userName=%40neuedaltd&appID=",
+                "qType": "internet",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-09T12:06:20.642Z",
+                    "modifiedDate": "2018-05-09T14:31:41.860Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "ef6b2377-8dbf-4e51-af2e-6a770a27c06d",
+                "qName": "TwittersFollwerIDs (win-mtmqogh9pmt_qlikservice)",
+                "qConnectionString": "http://localhost:5555/data?connectorID=TwitterConnector&table=FollowerIds&userName=%40neuedaltd&appID=",
+                "qType": "internet",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-09T16:09:21.018Z",
+                    "modifiedDate": "2018-05-09T16:09:21.018Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "c5042d5f-4da4-40f8-bcdd-6787835858cf",
+                "qName": "TwitterFollowerIDs (win-mtmqogh9pmt_qlikservice)",
+                "qConnectionString": "C:\\QlikShare\\Data\\Social Media\\Twitter\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-09T16:22:36.952Z",
+                    "modifiedDate": "2018-05-09T16:22:36.952Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "9c09b168-9454-48a7-81ea-b4e7f107dd4b",
+                "qName": "Google_Pages",
+                "qConnectionString": "http://localhost:5555/data?connectorID=GoogleAnalyticsConnector&table=CreateReport&ViewId=132031536&TimePeriod=07052017-07052018&Dimensions=ga%3adateHour%2cga%3apageTitle%2cga%3aexitPagePath%2cga%3alandingPagePath%2cga%3acity%2cga%3asocialNetwork%2cga%3auserType&Metrics=ga%3aentrances%2cga%3apageviews%2cga%3atimeOnPage%2cga%3auniquePageviews%2cga%3aexits%2cga%3asessions%2cga%3abounces%2cga%3asessionDuration&Sampling=DEFAULT&appID=",
+                "qType": "internet",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-08T18:17:00.089Z",
+                    "modifiedDate": "2018-05-09T18:57:56.035Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "d57ea965-84f1-48ae-a871-e115ddb2880a",
+                "qName": "TwitterUsertimeline (win-mtmqogh9pmt_qlikservice)",
+                "qConnectionString": "http://localhost:5555/data?connectorID=TwitterConnector&table=UserTimeline&userId=927676358&maxNoPages=16&ignoreRateLimitErrors=True&appID=",
+                "qType": "internet",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-09T10:07:47.602Z",
+                    "modifiedDate": "2018-05-14T15:26:59.608Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "9669f774-acbc-4e96-9103-f675337cda1a",
+                "qName": "Newsentiment (win-mtmqogh9pmt_qlikservice)",
+                "qConnectionString": "http://localhost:5555/data?connectorID=TextAnalyser_Sentiment140Connector&table=Sentiment&text=$(TextEncoded)&Language=en&appID=",
+                "qType": "internet",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-10T15:32:46.936Z",
+                    "modifiedDate": "2018-05-10T15:32:46.936Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "c8db0b75-fd9d-4f02-b808-b39b1d18452d",
+                "qName": "TourismConnectVidh (win-mtmqogh9pmt_vidhya.ranganathan)",
+                "qConnectionString": "C:\\QlikShare\\Data\\Website Data\\Tourism\\Raw Data\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-08-28T08:00:16.433Z",
+                    "modifiedDate": "2018-08-28T08:00:16.433Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "6065f757-247a-4572-ba4a-50535931cf19",
+                "qName": "Dropbox - ralph.graham@neueda.com",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvWebStorageProviderConnectorPackage.exe;sourceType=File_DropboxConnector;NA - OAuth2={%3screenName%3:%3User: ralph.graham@neueda.com%3,%3created%3:%321 May 2018 11:26:06%3,%3expires%3:%3N/A%3};\"",
+                "qType": "QvWebStorageProviderConnectorPackage.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-21T10:26:12.171Z",
+                    "modifiedDate": "2018-06-03T18:28:22.865Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "93ad3a6e-f761-4c81-b1fa-e47391a0d792",
+                "qName": "NeuedaSocialMediaExtractor (win-mtmqogh9pmt_qlikservice)",
+                "qConnectionString": "C:\\QlikShare\\Data\\Social Media\\NeuedaSocialMediaExtractor\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-17T11:58:39.646Z",
+                    "modifiedDate": "2018-05-17T12:01:39.187Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "71569915-bc61-49de-9525-a7f73c9541df",
+                "qName": "Continents",
+                "qConnectionString": "http://statisticstimes.com/geography/countries-by-continents.php",
+                "qType": "internet",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-10-03T08:29:11.117Z",
+                    "modifiedDate": "2018-10-03T08:29:11.117Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "872c7d2c-3e05-40f8-a323-2436df275a34",
+                "qName": "Sentimenttest (win-mtmqogh9pmt_qlikservice)",
+                "qConnectionString": "http://localhost:5555/data?connectorID=TextAnalyser_Sentiment140Connector&table=Sentiment&text=$(text)&Language=en&appID=",
+                "qType": "internet",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-10T10:33:50.429Z",
+                    "modifiedDate": "2018-05-11T14:50:22.745Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "33f6b0f4-f2df-41f4-aab1-e149e5569b0d",
+                "qName": "Realtime",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=http://api.irishrail.ie/realtime/realtime.asmx/getCurrentTrainsXML;timeout=30;method=GET;autoDetectResponseType=true;keyGenerationStrategy=0;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=CurrentUser;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-15T20:45:23.249Z",
+                    "modifiedDate": "2018-05-15T20:45:23.249Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "6acf9696-4429-4a59-a634-b3ebc8cc38d5",
+                "qName": "Translink API",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=http://apis.opendatani.gov.uk/translink/3042A7.xml;timeout=30;method=GET;autoDetectResponseType=true;keyGenerationStrategy=0;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=CurrentUser;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-15T20:45:23.249Z",
+                    "modifiedDate": "2018-05-15T20:45:23.249Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "b79cdef9-e4cf-468f-a2e6-39f2cfb55a6f",
+                "qName": "Dublin Stations",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://apis.opendatani.gov.uk/translink/;timeout=30;method=GET;autoDetectResponseType=true;keyGenerationStrategy=0;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=CurrentUser;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-15T20:45:23.249Z",
+                    "modifiedDate": "2018-05-15T20:45:23.249Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "7863cbd4-133e-4aed-a7d5-e52fd8e82af1",
+                "qName": "AirportPunctuality",
+                "qConnectionString": "C:\\Users\\David Acheson\\OneDrive - Neueda\\AirportPunctuality\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-10-03T08:29:11.117Z",
+                    "modifiedDate": "2018-10-03T08:29:11.117Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "5a09adf2-7d17-4142-8ccb-12bab377844d",
+                "qName": "2014 WC (win-mtmqogh9pmt_ralph.graham)",
+                "qConnectionString": "https://github.com/openfootball/world-cup/blob/master/2014--brazil/cup_finals.txt",
+                "qType": "internet",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-16T15:32:39.101Z",
+                    "modifiedDate": "2018-05-16T15:33:12.429Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "65ae56b2-2d60-4888-8c08-0fe6b0e92abf",
+                "qName": "qsgc-metadata",
+                "qConnectionString": "c:\\metadata",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-22T21:36:04.657Z",
+                    "modifiedDate": "2018-05-22T21:36:04.657Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "fe742c6d-36c6-4d89-ad6d-6232a32a8fcd",
+                "qName": "qsgc-qvds",
+                "qConnectionString": "c:\\qvdOutput",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-22T21:36:04.826Z",
+                    "modifiedDate": "2018-05-22T21:36:04.826Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "a5391f39-027a-4ca0-ada6-19bb53d8e7f9",
+                "qName": "GATest (win-mtmqogh9pmt_qlikservice)",
+                "qConnectionString": "C:\\QlikShare\\Data\\Social Media\\GATest\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-24T08:42:06.531Z",
+                    "modifiedDate": "2018-05-24T08:42:50.684Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "3825d2c3-4e84-41c9-b6c1-4fdaf9c007b2",
+                "qName": "Downloads",
+                "qConnectionString": "C:\\Users\\RalphGraham\\OneDrive - Neueda\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-29T10:41:19.532Z",
+                    "modifiedDate": "2018-05-29T10:41:19.532Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "c7fd04cd-f0e7-49a6-bc9b-eace15e1eb28",
+                "qName": "__GEO_TABLES",
+                "qConnectionString": "C:\\Users\\RalphGraham\\AppData\\Local\\Programs\\Qlik\\Sense\\DataPrepService\\src\\geo",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-29T10:41:19.532Z",
+                    "modifiedDate": "2018-05-29T10:41:19.532Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "aabead70-dee1-4ce4-bd5c-66e741c72939",
+                "qName": "Linkedintest (win-mtmqogh9pmt_qlikservice)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://www.linkedin.com/uas/oauth2/authorization?client_id%286r2uvbgfn0f90;timeout=30;method=GET;autoDetectResponseType=true;keyGenerationStrategy=0;authSchema=anonymous;skipServerCertificateValidation=true;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;queryHeaders=client_id%286r2uvbgfn0f90%1response_type%2code;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-30T15:16:32.070Z",
+                    "modifiedDate": "2018-05-31T14:10:49.907Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "3809a226-e66b-4300-8ce9-36642162c227",
+                "qName": "ni direct google analytics",
+                "qConnectionString": "C:\\Users\\Neueda\\Downloads\\ni direct google analytics\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-06-05T14:52:26.794Z",
+                    "modifiedDate": "2018-06-05T14:52:26.794Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "4fec2cd3-af5a-49b3-abe2-474db0ca5bb4",
+                "qName": "Ralph_Fitbit (win-mtmqogh9pmt_ralph.graham)",
+                "qConnectionString": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQMcihCXrKU-2IAch6XyrxdUq5xFaSO3her7HM2C2tOv0WQX1zL3CejFqJaR4T7AciLNpu861XvPVTu/pubhtml",
+                "qType": "internet",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-06-05T20:22:58.030Z",
+                    "modifiedDate": "2018-06-05T20:22:58.030Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "448fb5c1-cd4b-4789-9528-c1bc33de6cf6",
+                "qName": "Refugee Data",
+                "qConnectionString": "https://data2.unhcr.org/api/population/get/sublocation?widget_id=74028&sv_id=4&population_collection=24&forcesublocation=0&fromDate=1900-01-01",
+                "qType": "internet",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-06-15T15:35:59.500Z",
+                    "modifiedDate": "2018-06-15T15:35:59.500Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "15b63dbb-c5ae-4b25-9c97-9115c07f0019",
+                "qName": "Food Standards - Antrim_Newtownabbey (win-mtmqogh9pmt_kim.johnston)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=http://ratings.food.gov.uk/OpenDataFiles/FHRS801en-GB.xml;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=0;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-08-13T12:27:03.876Z",
+                    "modifiedDate": "2018-08-13T12:27:03.876Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "480de398-a175-4cd6-8f65-131fbca664ef",
+                "qName": "OD_Admissions",
+                "qConnectionString": "C:\\QlikShare\\Data\\Admissions\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-06-20T12:37:24.257Z",
+                    "modifiedDate": "2018-06-20T12:39:02.085Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "e36fa6af-6af6-4d75-a913-32ac8be50ae9",
+                "qName": "Potholes (win-mtmqogh9pmt_ralph.graham)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://apps1.wdm.co.uk/odr/drdni/Pothole_Enquiries_Current_Year.xml;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=0;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-08-14T18:35:58.465Z",
+                    "modifiedDate": "2018-08-14T18:35:58.465Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "73650426-90be-4463-aba7-35785444e18c",
+                "qName": "Maps",
+                "qConnectionString": "C:\\QlikShare\\Data\\Maps\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-06-20T15:54:55.111Z",
+                    "modifiedDate": "2018-06-20T15:55:36.888Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "0f3428ca-353f-473c-93dd-03e922acb95e",
+                "qName": "movie library",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://api.themoviedb.org/3/discover/movie?language%2en-US&sort_by%2popularity.desc&include_adult%2false&include_video%2false;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=1;authSchema=anonymous;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;queryParameters=primary_release_year%2YEAR%1api_key%28b4e359e5a921129cbd5683bbff86e7b%1page%2$(page);addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-06-14T06:38:28.432Z",
+                    "modifiedDate": "2018-09-03T08:39:44.843Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "cd04d795-9a24-4df2-b3b5-2f5fcf7c5270",
+                "qName": "SWAPIPeople",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=http://swapi.co/api/people;timeout=30;method=GET;autoDetectResponseType=true;keyGenerationStrategy=0;useWindowsAuthentication=false;forceAuthenticationType=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;PaginationType=NextUrl;NextUrlFieldPath=root/next;IsNextUrlFieldPathHeader=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-09-03T10:04:42.372Z",
+                    "modifiedDate": "2018-09-03T10:04:42.372Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "6a61dffb-a3f3-4699-bf37-456e242fd892",
+                "qName": "Worldcup (win-mtmqogh9pmt_kim.johnston)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://raw.githubusercontent.com/lsv/fifa-worldcup-2018/master/data.json;timeout=30;method=GET;autoDetectResponseType=true;keyGenerationStrategy=0;authSchema=anonymous;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-06-26T10:19:35.663Z",
+                    "modifiedDate": "2018-06-26T10:19:35.663Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "9a6edf9b-7e0c-406a-81d7-096b6f5b0689",
+                "qName": "World Cup 2018 (win-mtmqogh9pmt_kim.johnston)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://raw.githubusercontent.com/lsv/fifa-worldcup-2018/master/data.json;timeout=30;method=GET;autoDetectResponseType=true;keyGenerationStrategy=0;authSchema=anonymous;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-06-26T10:32:47.116Z",
+                    "modifiedDate": "2018-06-26T10:32:47.116Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "ed93f8c1-c29d-4fb5-9196-89589b953648",
+                "qName": "SWAPISpecies",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=http://swapi.co/api/species;timeout=30;method=GET;autoDetectResponseType=true;keyGenerationStrategy=0;useWindowsAuthentication=false;forceAuthenticationType=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;PaginationType=NextUrl;NextUrlFieldPath=root/next;IsNextUrlFieldPathHeader=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-09-03T10:04:42.372Z",
+                    "modifiedDate": "2018-09-03T10:04:42.372Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "136bde2c-741d-4d36-bedf-9ca98d7080b9",
+                "qName": "monitor_apps_REST_license_overview",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://localhost/qrs/license/accesstypeoverview;timeout=900;method=GET;autoDetectResponseType=true;keyGenerationStrategy=0;authSchema=ntlm;skipServerCertificateValidation=true;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;trustedLocations=qrs-proxy%2https://localhost:4244;queryParameters=xrfkey%20000000000000000;addMissingQueryParametersToFinalRequest=false;queryHeaders=X-Qlik-XrfKey%20000000000000000%1User-Agent%2Windows;PaginationType=None;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-06-26T20:19:14.411Z",
+                    "modifiedDate": "2018-06-26T20:19:14.411Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "515e135f-6dec-425c-94df-cd38410c699c",
+                "qName": "monitor_apps_REST_license_professional",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://localhost/qrs/license/professionalaccesstype/full;timeout=900;method=GET;autoDetectResponseType=true;keyGenerationStrategy=0;authSchema=ntlm;skipServerCertificateValidation=true;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;trustedLocations=qrs-proxy%2https://localhost:4244;queryParameters=xrfkey%20000000000000000;addMissingQueryParametersToFinalRequest=false;queryHeaders=X-Qlik-XrfKey%20000000000000000%1User-Agent%2Windows;PaginationType=None;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-06-26T20:19:14.411Z",
+                    "modifiedDate": "2018-06-26T20:19:14.411Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "a10b8554-8858-4d3f-aece-9c881c1b94aa",
+                "qName": "monitor_apps_REST_license_analyzer",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://localhost/qrs/license/analyzeraccesstype/full;timeout=900;method=GET;autoDetectResponseType=true;keyGenerationStrategy=0;authSchema=ntlm;skipServerCertificateValidation=true;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;trustedLocations=qrs-proxy%2https://localhost:4244;queryParameters=xrfkey%20000000000000000;addMissingQueryParametersToFinalRequest=false;queryHeaders=X-Qlik-XrfKey%20000000000000000%1User-Agent%2Windows;PaginationType=None;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-06-26T20:19:14.411Z",
+                    "modifiedDate": "2018-06-26T20:19:14.411Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "02d9dc49-c995-4046-aa3d-fc78ba050535",
+                "qName": "DM (win-mtmqogh9pmt_ralph.graham)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvDataMarketConnector.exe;\"",
+                "qType": "QvDataMarketConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-07-01T14:09:25.419Z",
+                    "modifiedDate": "2018-07-01T14:09:25.419Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "2915fd2a-8412-470d-867f-0397bcd0812f",
+                "qName": "Dropbox - ralphg85@hotmail.co.uk (win-mtmqogh9pmt_ralph.graham)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvWebStorageProviderConnectorPackage.exe;sourceType=File_DropboxConnector;NA - OAuth2={%3screenName%3:%3User: ralphg85@hotmail.co.uk%3,%3created%3:%315 Jul 2018 12:51:57%3,%3expires%3:%3N/A%3};\"",
+                "qType": "QvWebStorageProviderConnectorPackage.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-07-15T11:52:03.669Z",
+                    "modifiedDate": "2018-07-15T11:52:03.669Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "ac99b962-0a7e-4723-bf4c-608f5c77bbdb",
+                "qName": "Irish Rail Train Locations",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=http://api.irishrail.ie/realtime/realtime.asmx/getAllStationsXML_WithStationType?StationType%2A;timeout=30;method=GET;autoDetectResponseType=true;keyGenerationStrategy=0;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-05-15T21:00:52.781Z",
+                    "modifiedDate": "2018-08-13T12:58:47.528Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "79fc4911-c3bb-4939-876e-703b800dc0db",
+                "qName": "Transport_QVD",
+                "qConnectionString": "C:\\QlikShare\\Data\\Website Data\\Transport\\QVD\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-07-20T10:57:13.524Z",
+                    "modifiedDate": "2018-07-20T10:58:06.699Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "0ace9d66-4009-4216-8859-8f6d5f8b9a1c",
+                "qName": "AirportIATACode",
+                "qConnectionString": "https://raw.githubusercontent.com/datasets/airport-codes/master/data/airport-codes.csv",
+                "qType": "internet",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-10-03T08:29:24.667Z",
+                    "modifiedDate": "2018-10-03T08:29:24.667Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "681bcd98-4ae1-4012-bb86-5264c842b108",
+                "qName": "Love Island Files (win-mtmqogh9pmt_qlikservice)",
+                "qConnectionString": "C:\\QlikShare\\Data\\Social Media\\LoveIsland\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-07-20T11:16:04.804Z",
+                    "modifiedDate": "2018-07-20T11:16:04.804Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "1e074ec1-0f63-47f4-9646-dfb5c5f9a22f",
+                "qName": "Local_Government_QVD",
+                "qConnectionString": "C:\\QlikShare\\Data\\Website Data\\Local Government\\QVD\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-07-20T13:01:53.377Z",
+                    "modifiedDate": "2018-07-20T13:09:32.959Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "36f90fc3-9be4-4ce4-9f75-00eb88503ea3",
+                "qName": "Local_Government_Raw_Data",
+                "qConnectionString": "C:\\QlikShare\\Data\\Website Data\\Local Government\\Raw Data\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-07-20T13:00:45.790Z",
+                    "modifiedDate": "2018-07-20T13:13:01.098Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "e127a838-0c3d-4221-afc0-2febae280e8c",
+                "qName": "WikiPage (win-mtmqogh9pmt_ian.scott)",
+                "qConnectionString": "https://en.wikipedia.org/wiki/Love_Island_(series_4)",
+                "qType": "internet",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-07-23T11:26:17.186Z",
+                    "modifiedDate": "2018-07-23T11:26:17.186Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "c9fcdb44-fcdf-4d01-98b3-0e98e68b1cba",
+                "qName": "Demographics_QVD",
+                "qConnectionString": "C:\\QlikShare\\Data\\Website Data\\Demographics\\QVD\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-07-23T11:48:39.463Z",
+                    "modifiedDate": "2018-07-23T11:48:55.815Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "b5c6fac8-b919-4c3b-814b-bcbbf1aa9870",
+                "qName": "Demographics_Raw_Data",
+                "qConnectionString": "C:\\QlikShare\\Data\\Website Data\\Demographics\\Raw Data\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-07-23T11:48:17.298Z",
+                    "modifiedDate": "2018-07-23T11:49:01.552Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "d8d445cd-0137-4ed5-bc7e-221181288ba4",
+                "qName": "Tourism_QVD",
+                "qConnectionString": "C:\\QlikShare\\Data\\Website Data\\Tourism\\QVD\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-07-27T07:49:59.601Z",
+                    "modifiedDate": "2018-07-27T07:50:25.531Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "3d6fe5d4-951d-4412-aa55-fd3a869071f4",
+                "qName": "Tourism_Raw_Data",
+                "qConnectionString": "C:\\QlikShare\\Data\\Website Data\\Tourism\\Raw Data\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-07-27T07:49:39.272Z",
+                    "modifiedDate": "2018-07-27T07:50:33.550Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "cd803aab-cd12-463e-8ae2-ab67682590a7",
+                "qName": "GA_Folder",
+                "qConnectionString": "C:\\QlikShare\\Data\\Social Media\\Google Analytics\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-07-30T07:23:31.965Z",
+                    "modifiedDate": "2018-07-30T07:23:49.702Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "e342ef3f-2518-4da0-b2fc-43af5b814f38",
+                "qName": "ArchivedLogsFolder",
+                "qConnectionString": "\\\\WIN-MTMQOGH9PMT\\QlikShare\\ArchivedLogs\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-07-30T07:58:38.174Z",
+                    "modifiedDate": "2018-07-30T07:59:14.132Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "98f1417a-a40e-4191-ac76-fbfa6663c432",
+                "qName": "Transport_Raw_Data",
+                "qConnectionString": "C:\\QlikShare\\Data\\Website Data\\Transport\\Raw Data\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-07-30T10:17:01.916Z",
+                    "modifiedDate": "2018-07-30T10:17:19.607Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "aff14ad7-a048-4c2f-b0bd-ab5bf99737b3",
+                "qName": "Sports_QVD",
+                "qConnectionString": "C:\\QlikShare\\Data\\Website Data\\Sports\\QVD\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-07-30T11:22:26.829Z",
+                    "modifiedDate": "2018-07-30T11:22:49.326Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "941c4ac2-d42d-4186-ae68-bfa19a0c0937",
+                "qName": "Sports_Raw_Data",
+                "qConnectionString": "C:\\QlikShare\\Data\\Website Data\\Sports\\Raw Data\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-07-30T11:22:10.871Z",
+                    "modifiedDate": "2018-07-30T11:22:57.782Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "9917536f-d3e0-4864-a263-91be3f1b4075",
+                "qName": "Health_QVD",
+                "qConnectionString": "C:\\QlikShare\\Data\\Website Data\\Health\\QVD\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-07-30T13:23:01.505Z",
+                    "modifiedDate": "2018-07-30T13:23:23.966Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "1c66617c-ac19-4246-b849-bc6eef16fa00",
+                "qName": "NI Accident and Emergency Waiting Times",
+                "qConnectionString": "https://www.nidirect.gov.uk/emergency-department-waiting-times",
+                "qType": "internet",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-07-30T13:20:23.909Z",
+                    "modifiedDate": "2018-07-30T13:24:08.900Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "e270acff-8b99-43c2-8274-2175ddfe16a5",
+                "qName": "DublinBusStops (win-mtmqogh9pmt_ralph.graham)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://data.smartdublin.ie/cgi-bin/rtpi/busstopinformation?&format%2json;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=0;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-07-31T07:42:16.346Z",
+                    "modifiedDate": "2018-07-31T07:45:18.071Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "6d8a3600-7617-4df8-bca6-568856e81cc0",
+                "qName": "Post Codes",
+                "qConnectionString": "C:\\Users\\Neueda\\Documents\\Qlik\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-07-31T10:59:28.231Z",
+                    "modifiedDate": "2018-07-31T10:59:28.231Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "c66bfd96-16aa-4520-92be-62986cc76d8f",
+                "qName": "Housing",
+                "qConnectionString": "C:\\Users\\Neueda\\Documents\\Qlik\\Sense\\Files\\Housing\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-07-31T10:59:28.231Z",
+                    "modifiedDate": "2018-07-31T10:59:28.231Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "871b5e17-c7bb-40ff-9102-fcb0ca867450",
+                "qName": "Brexit Data Files (win-mtmqogh9pmt_ian.scott)",
+                "qConnectionString": "C:\\QlikShare\\Data\\Social Media\\Brexit\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-07-31T11:20:28.546Z",
+                    "modifiedDate": "2018-07-31T11:20:28.546Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "a0adb34e-86fb-4b9a-a7c3-ed34e07ed167",
+                "qName": "DublinBusAPI (win-mtmqogh9pmt_ralph.graham)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://data.smartdublin.ie/cgi-bin/rtpi/realtimebusinformation?;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=1;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;queryParameters=stopid%2$(stopid);addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-07-31T07:31:27.562Z",
+                    "modifiedDate": "2018-07-31T11:32:27.854Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "3bc23d11-eb20-44f5-bdea-d78850e677bd",
+                "qName": "BMet (win-mtmqogh9pmt_qlikservice)",
+                "qConnectionString": "C:\\QlikShare\\Data\\Social Media\\BMet\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-07-31T13:31:49.532Z",
+                    "modifiedDate": "2018-07-31T13:31:49.532Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "b38df42c-2829-480c-aa3e-59058aea275e",
+                "qName": "Health_Raw_Data",
+                "qConnectionString": "C:\\QlikShare\\Data\\Website Data\\Health\\Raw Data\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-08-13T19:09:53.977Z",
+                    "modifiedDate": "2018-08-13T19:10:31.435Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "f02290e5-dcc0-47c3-9211-da9c3b02a64a",
+                "qName": "foodtypes (win-mtmqogh9pmt_ian.scott)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://api.nal.usda.gov/ndb/list?format%2xml&lt%2f&sort%2n&api_key%2pt0O7RdEi1mdzYenjLVnhjdAKO9zoQzUhgxKpa6b;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=0;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=Offset;OffsetStartField=offset;IsOffsetStartFieldHeader=false;OffsetStartFieldValue=0;OffsetCountFieldName=max;IsOffsetCountFieldHeader=false;OffsetCountValue=500;OffsetTotalPath=end;IsOffsetTotalPathHeader=false;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-08-06T12:10:17.035Z",
+                    "modifiedDate": "2018-08-06T14:12:44.383Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "f4b70330-7a8d-43ff-a330-e5b222e4d134",
+                "qName": "TourismNI (win-mtmqogh9pmt_qlikservice)",
+                "qConnectionString": "C:\\QlikShare\\Data\\Social Media\\TourismNI\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-08-01T15:38:36.436Z",
+                    "modifiedDate": "2018-08-02T08:11:48.078Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "338e3c75-5f67-48c3-a421-16919072c377",
+                "qName": "GP2W",
+                "qConnectionString": "C:\\Users\\RalphGraham\\OneDrive - Neueda\\Qlik Management\\GP2W\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-08-02T12:54:54.193Z",
+                    "modifiedDate": "2018-08-03T08:21:20.327Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "13044279-2c57-42aa-a171-4c4ce981d749",
+                "qName": "foodCat (win-mtmqogh9pmt_ian.scott)",
+                "qConnectionString": "https://api.nal.usda.gov/ndb/list?format=xml&lt=g&sort=n&api_key=pt0O7RdEi1mdzYenjLVnhjdAKO9zoQzUhgxKpa6b",
+                "qType": "internet",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-08-06T09:07:45.357Z",
+                    "modifiedDate": "2018-08-06T09:27:46.093Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "2ee5c842-7967-4f11-8a13-b59fca462b95",
+                "qName": "TestRG (win-mtmqogh9pmt_ralph.graham)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://sedeaplicaciones.minetur.gob.es/ServiciosRESTCarburantes/PreciosCarburantes/EstacionesTerrestres/;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=0;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-08-16T07:50:19.994Z",
+                    "modifiedDate": "2018-08-16T07:50:19.994Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "431afdd5-c972-49a4-a284-ca7ad2362e20",
+                "qName": "FoodDataBase (win-mtmqogh9pmt_ian.scott)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://api.nal.usda.gov/ndb/reports/?ndbno%201009&type%2b&format%2xml&api_key%2pt0O7RdEi1mdzYenjLVnhjdAKO9zoQzUhgxKpa6b;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=0;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-08-06T11:48:32.446Z",
+                    "modifiedDate": "2018-08-06T11:50:11.145Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "93ed8e99-d33f-452e-a3b6-e54d4cb23f7d",
+                "qName": "CIE Route List",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://data.smartdublin.ie/cgi-bin/rtpi/routelistinformation;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=0;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-08-07T07:27:30.967Z",
+                    "modifiedDate": "2018-08-07T07:28:22.300Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "f7fde7fd-351c-41a8-81d8-e7599e883227",
+                "qName": "PoliceServiceBoundaries (win-mtmqogh9pmt_kim.johnston)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://data.police.uk/api/leicestershire/NC04/boundary;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=0;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-08-14T08:10:38.320Z",
+                    "modifiedDate": "2018-08-14T08:10:38.320Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "4af66ee4-032d-4fd5-8aab-ec74a479e4f8",
+                "qName": "CIE Routes (win-mtmqogh9pmt_ralph.graham)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://data.smartdublin.ie/cgi-bin/rtpi/routeinformation?;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=1;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;queryParameters=route%2$(route)%1operator%2$(operator);addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-08-07T06:56:02.244Z",
+                    "modifiedDate": "2018-08-07T09:21:38.340Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "524315ce-b7ef-41ae-9e61-71263e25e81a",
+                "qName": "Twitter_QVD (win-mtmqogh9pmt_ralph.graham)",
+                "qConnectionString": "C:\\QlikShare\\Data\\Social Media\\Twitter\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-08-07T10:52:49.798Z",
+                    "modifiedDate": "2018-08-07T10:52:49.798Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "0a0b3e92-94ca-477a-9d79-aa014db0b4ce",
+                "qName": "WeatherTest (win-mtmqogh9pmt_ian.scott)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=http://NflArrest.com/api/v1/crime/topTeams/CrimeID;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=false;keyGenerationStrategy=0;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-08-16T14:32:17.312Z",
+                    "modifiedDate": "2018-08-16T14:40:29.392Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "9c07babe-8d4a-4474-86b0-54b6fa1d0551",
+                "qName": "Ireland Activities (win-mtmqogh9pmt_kim.johnston)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://failteireland.azure-api.net/opendata-api/v1/activities;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=0;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;NextUrlFieldPath=root/nextPage;IsNextUrlFieldPathHeader=false;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-08-14T14:17:27.071Z",
+                    "modifiedDate": "2018-08-16T13:27:12.259Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "17f4d008-bd5c-4e0d-ab05-73be0e83ff45",
+                "qName": "Ireland Accommodation (win-mtmqogh9pmt_kim.johnston)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://failteireland.portal.azure-api.net/docs/services/f-ilte-ireland-s-open-data-api/operations/accommodation;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=false;keyGenerationStrategy=0;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-08-16T08:14:34.489Z",
+                    "modifiedDate": "2018-08-16T13:33:10.347Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "615530e9-8a35-431b-98eb-2a13a20f5f4b",
+                "qName": "Universities (win-mtmqogh9pmt_david.clarke)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=http://universities.hipolabs.com/search;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=0;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-08-16T14:25:34.014Z",
+                    "modifiedDate": "2018-08-16T14:25:34.014Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "01a9c92b-1e45-464c-b4bc-aae2b54c9ad4",
+                "qName": "WeatherAirQualityBelfast (win-mtmqogh9pmt_david.clarke)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=http://api.airvisual.com/v2/city?city%2Belfast&country%2UK&state%2Northern%%20Ireland&key%26Jgas8R4mf4aeCu3E;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=0;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-08-16T16:07:12.892Z",
+                    "modifiedDate": "2018-08-16T16:07:12.892Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "cfea1efe-cea6-43e4-82e4-0fa58a4cb1e4",
+                "qName": "Pollution UK&NI (win-mtmqogh9pmt_david.clarke)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://api.openaq.org/v1/latest?country%2GB;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=0;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-08-17T10:20:10.720Z",
+                    "modifiedDate": "2018-08-17T10:20:10.720Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "4af76203-0b83-476b-b90c-977c16fe3950",
+                "qName": "WebsiteData_Transport_QVD",
+                "qConnectionString": "C:\\QlikShare\\Data\\Website Data\\Transport\\QVD\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-10-03T09:34:21.608Z",
+                    "modifiedDate": "2018-10-03T09:39:48.994Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "665bb968-3d8d-4aa0-9108-069e5423809c",
+                "qName": "WebsiteData_Transport_RawData",
+                "qConnectionString": "C:\\QlikShare\\Data\\Website Data\\Transport\\Raw Data\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-10-03T09:33:22.692Z",
+                    "modifiedDate": "2018-10-03T09:39:56.954Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "319c4cc1-678a-414f-9f89-5ffa5f5696aa",
+                "qName": "UKAirportIATACode",
+                "qConnectionString": "http://www.gosimply.com/blog/iata-airport-codes-uk-airports/",
+                "qType": "internet",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-10-03T08:29:24.667Z",
+                    "modifiedDate": "2018-10-03T09:43:18.583Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "025bc944-6024-4cdb-81f9-a95bbfa2309f",
+                "qName": "SpanishFuelQVDs",
+                "qConnectionString": "C:\\Users\\David Acheson\\OneDrive - Neueda\\Fuel Prices\\QVDs\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-10-03T16:09:03.254Z",
+                    "modifiedDate": "2018-10-03T16:09:03.254Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "821b3d22-2651-4bb8-a0af-7a331aa33f63",
+                "qName": "Pollution Ireland (win-mtmqogh9pmt_david.clarke)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://api.openaq.org/v1/latest?country%2IE;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=0;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;NextUrlFieldPath=https://api.openaq.org/v1/latest?country%2GB;IsNextUrlFieldPathHeader=false;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-08-17T10:12:30.252Z",
+                    "modifiedDate": "2018-08-17T10:22:07.269Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "603f468a-da9f-4f7d-bf9c-35783a435146",
+                "qName": "pollution (azure_david.clarke@neueda.com)",
+                "qConnectionString": "C:\\Users\\Public\\Documents\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-08-22T14:02:23.808Z",
+                    "modifiedDate": "2018-08-22T14:07:44.849Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "724c5328-61a4-4cd4-9caf-f0a42c779560",
+                "qName": "Movie_DB_Genre (win-mtmqogh9pmt_ralph.graham)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://api.themoviedb.org/3/genre/movie/list?api_key%28b4e359e5a921129cbd5683bbff86e7b&language%2en-US;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=0;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-09-03T08:36:09.456Z",
+                    "modifiedDate": "2018-09-03T08:36:09.456Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "42a7401e-46ba-4144-a8b6-80d8168684e4",
+                "qName": "Movie Details (win-mtmqogh9pmt_ralph.graham)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://api.themoviedb.org/3/movie/189?;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=1;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;queryParameters=movie_id%2189%1api_key%28b4e359e5a921129cbd5683bbff86e7b%1language%2en-US;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-09-03T09:29:02.355Z",
+                    "modifiedDate": "2018-09-03T09:57:51.274Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "46855afe-4a81-4c73-aa71-96a1eab87b23",
+                "qName": "Movie Credits (win-mtmqogh9pmt_ralph.graham)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://api.themoviedb.org/3/movie/189/credits?/api_key%28b4e359e5a921129cbd5683bbff86e7b;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=1;authSchema=basic;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;queryParameters=api_key%28b4e359e5a921129cbd5683bbff86e7b%1movie_id%2189;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-09-03T12:23:13.216Z",
+                    "modifiedDate": "2018-09-03T12:27:09.281Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "bf4794c6-c268-4248-a668-6ac73e35cb51",
+                "qName": "Continents (azure_david.acheson@neueda.com)",
+                "qConnectionString": "http://statisticstimes.com/geography/countries-by-continents.php",
+                "qType": "internet",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-10-03T09:36:01.400Z",
+                    "modifiedDate": "2018-10-03T09:36:01.400Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "15438e20-6b5a-47a4-9539-2577a5686197",
+                "qName": "SpanishFuelPrices",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://sedeaplicaciones.minetur.gob.es/ServiciosRESTCarburantes/PreciosCarburantes/EstacionesTerrestres/;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=0;authSchema=anonymous;skipServerCertificateValidation=true;useCertificate=No;certificateStoreLocation=CurrentUser;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-10-03T16:08:50.765Z",
+                    "modifiedDate": "2018-10-03T16:08:50.765Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "3f2bdd18-a62d-4d77-ac9c-47661216355f",
+                "qName": "FuelPriceQVDs",
+                "qConnectionString": "C:\\Users\\David Acheson\\OneDrive - Neueda\\Fuel Prices\\QVDs\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-10-03T16:08:50.765Z",
+                    "modifiedDate": "2018-10-03T16:08:50.765Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "01c30506-7c28-42c9-95a2-9942096d8e68",
+                "qName": "SpanishFuelPrices (azure_david.acheson@neueda.com)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://sedeaplicaciones.minetur.gob.es/ServiciosRESTCarburantes/PreciosCarburantes/EstacionesTerrestres/;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=0;authSchema=anonymous;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-10-05T07:34:28.160Z",
+                    "modifiedDate": "2018-10-05T07:34:28.160Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "b5e93fc2-b763-49ca-9128-854da3c28294",
+                "qName": "WebsiteData_Consumer_QVD",
+                "qConnectionString": "C:\\QlikShare\\Data\\Website Data\\Consumer\\QVD\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-10-05T07:41:10.416Z",
+                    "modifiedDate": "2018-10-05T07:42:04.906Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "0a18d9d8-6aa9-4bbb-afc7-686cb31ca57d",
+                "qName": "Airport Locations",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://gist.githubusercontent.com/tdreyno/4278655/raw/7b0762c09b519f40397e4c3e100b097d861f5588/airports.json;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=0;authSchema=anonymous;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=CurrentUser;certificateStoreName=My;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-10-05T07:45:32.142Z",
+                    "modifiedDate": "2018-10-05T07:45:32.142Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "1e71478d-cc2f-4faf-890e-973901cdebb1",
+                "qName": "Fuel Prices",
+                "qConnectionString": "C:\\Users\\David Acheson\\OneDrive - Neueda\\Fuel Prices\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-10-05T07:45:32.142Z",
+                    "modifiedDate": "2018-10-05T07:45:32.142Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "601ec6c4-820f-4711-b5ca-25910ecac868",
+                "qName": "QVDs",
+                "qConnectionString": "C:\\Users\\David Acheson\\OneDrive - Neueda\\Fuel Prices\\QVDs\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-10-05T07:45:32.142Z",
+                    "modifiedDate": "2018-10-05T07:45:32.142Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "6c6bae50-57c2-4b15-8a2c-067ad87a3842",
+                "qName": "Currency History (azure_kim.johnston@neueda.com)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=https://api.exchangeratesapi.io/2010-01-12;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=true;keyGenerationStrategy=0;authSchema=anonymous;skipServerCertificateValidation=true;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;queryParameters=base%2GBP;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-10-05T09:19:10.251Z",
+                    "modifiedDate": "2018-10-05T09:19:10.251Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "dc2a3e58-28d1-4953-9030-f8c775b47e21",
+                "qName": "Eventful (azure_kim.johnston@neueda.com)",
+                "qConnectionString": "CUSTOM CONNECT TO \"provider=QvRestConnector.exe;url=http://eventful.com/events;timeout=30;method=GET;sendExpect100Continue=true;autoDetectResponseType=true;checkResponseTypeOnTestConnection=false;keyGenerationStrategy=0;authSchema=anonymous;skipServerCertificateValidation=false;useCertificate=No;certificateStoreLocation=LocalMachine;certificateStoreName=My;queryParameters=app_key%2dcFDn8FvKXqgzMwn%1location%2Northern Ireland%1date%2Future;addMissingQueryParametersToFinalRequest=false;PaginationType=None;allowResponseHeaders=false;allowHttpsOnly=false;\"",
+                "qType": "QvRestConnector.exe",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-10-08T11:46:17.412Z",
+                    "modifiedDate": "2018-10-08T11:46:17.412Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        },
+        {
+            "qConnection": {
+                "qId": "4043d21d-d801-4921-8de5-2c3b363f4310",
+                "qName": "NISchools",
+                "qConnectionString": "C:\\Users\\Neueda\\Desktop\\NISchools\\",
+                "qType": "folder",
+                "qMeta": {
+                    "qArchitecture": 0,
+                    "createdDate": "2018-10-08T12:42:01.960Z",
+                    "modifiedDate": "2018-10-08T12:42:01.960Z",
+                    "privileges": [
+                        "read",
+                        "update",
+                        "delete"
+                    ]
+                },
+                "qLogOn": "LOG_ON_SERVICE_USER"
+            }
+        }
+    ]
+}
